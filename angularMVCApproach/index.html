@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Angular</title>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.9/angular.min.js"></script>
+</head>
+<body ng-app="basicAngular">
+<div ng-controller="HelloWorldController as hello">
+	{{hello.helloMessage + hello.personName}}
+	<br/>
+	<br/>
+	<input ng-model="hello.personName"></input>
+	<br/>
+	<br/>
+	<button ng-click="hello.sayHello()">Alert Your Name</button>
+</div>
+<br/>
+<br/>
+<hello-world></hello-world>
+<script type="text/javascript" src="./app.js"></script>
+</body>
+</html>

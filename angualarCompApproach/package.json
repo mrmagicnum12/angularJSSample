@@ -1,0 +1,15 @@
+{
+  "name": "Angular w/ browserify",
+  "version": "1.0.0",
+  "description": "Basic example with browserify and components",
+  "dependencies" : {
+  	"angular" : "*"
+  },
+  "devDependencies" : {
+  	"browserify" : "*",
+    "serve-static" : "*",
+    "express": "*"
+  },
+  "author": "Anthony Buchanan, David Whittaker",
+  "license": "ISC"
+}
